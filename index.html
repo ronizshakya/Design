@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>THEME</title>
+	<meta charset="="utf-8" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style type="text/css">
+			.rslides {
+		  position: relative;
+		  list-style: none;
+		  overflow: hidden;
+		  border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+		  width: 100%;
+		  padding: 0;
+		  margin: 0;
+		  }
+
+		.rslides li {
+		  -webkit-backface-visibility: hidden;
+		  position: absolute;
+		  display: none;
+		  width: 100%;
+		  left: 0;
+		  top: 0;
+		  }
+
+		.rslides li:first-child {
+		  position: relative;
+		  display: block;
+		  float: left;
+		  }
+
+		.rslides img {
+		  display: block;
+		  height: auto;
+		  float: left;
+		  width: 100%;
+		  border: 0;
+		  }
+	</style>
+</head>
+<body class="body">
+<header class="mainHeader">
+	<img src="img/logo.png">
+<nav><ul>
+	<li><a class="active" href="#">HOME</a></li>
+	<li><a href="#">ABOUT</a></li>
+	<li><a href="#">PORTFOLIO</a></li>
+	<li><a href="#">CONTACT</a></li>
+	</ul></nav>
+</header>
+<ul class="rslides">
+  <li><img src="img/1.jpg" alt=""></li>
+  <li><img src="img/2.jpg" alt=""></li>
+  <li><img src="img/3.jpg" alt=""></li>
+</ul>
+
+
+<div class="maincontent">
+	<div class="content">
+		<article class="topcontent">
+			<header>
+				<h2><a href="#" title="First Post">FIRST blog</a></h2>
+			</header>
+			<footer>
+				<p class="post-info">THIS POST IS WRITTEN BY RONIZ</p>
+			</footer>
+			<content>
+				<p>Handicraft encompasses many different crafts that are used traditionally in everyday life. Gardening, sewing, knitting, crochet, paper making, leather making, spinning, bead work, stained glass, pottery, quilting, needlepoint, metal work, doll making and woodwork all are examples of handicrafts, as only hands or simple tools are used to produce artistic objects used in daily life.</p>
+				<p>Handicraft encompasses many different crafts that are used traditionally in everyday life. Gardening, sewing, knitting, crochet, paper making, leather making, spinning, bead work, stained glass, pottery, quilting, needlepoint, metal work, doll making and woodwork all are examples of handicrafts, as only hands or simple tools are used to produce artistic objects used in daily life.</p>
+			</content>
+		</article>
+		<article class="bottomcontent">
+			<header>
+				<h2><a href="#" title="Second Post">SECOND blog</a></h2>
+			</header>
+			<footer>
+				<p class="post-info">THIS POST IS WRITTEN BY RONIZ</p>
+			</footer>
+			<content>
+				<p>Handicraft encompasses many different crafts that are used traditionally in everyday life. Gardening, sewing, knitting, crochet, paper making, leather making, spinning, bead work, stained glass, pottery, quilting, needlepoint, metal work, doll making and woodwork all are examples of handicrafts, as only hands or simple tools are used to produce artistic objects used in daily life.</p>
+				<p>Handicraft encompasses many different crafts that are used traditionally in everyday life. Gardening, sewing, knitting, crochet, paper making, leather making, spinning, bead work, stained glass, pottery, quilting, needlepoint, metal work, doll making and woodwork all are examples of handicrafts, as only hands or simple tools are used to produce artistic objects used in daily life.</p>
+			</content>
+		</article>
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h2>TOP SIDEBAR</h2>
+		<P>here has been a resurgence in popularity of handicrafts, especially in the fiber arts, among children, teens and young adults.</P>
+	</article>
+</aside>
+<aside class="middle-sidebar">
+	<article>
+		<h2>MIDDLE SIDEBAR</h2>
+		<P>here has been a resurgence in popularity of handicrafts, especially in the fiber arts, popular with young people because it gives them a chance.</P>
+	</article>
+</aside>
+<aside class="bottom-sidebar">
+	<article>
+		<h2>BOTTOM SIDEBAR</h2>
+		<P>here has been a resurgence in popularity of handicrafts, especially in the fiber arts, among children,  teens and young adults. The article "Young and In Stitches".</P>
+	</article>
+</aside>
+<footer class="mainFooter">
+	<p>Copyright<a href="#" title="THEME">https://www.ronizshakya@gmail.com</a></p>
+	
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="responsiveslides.min.js"></script>
+<script>
+  $(function() {
+   $(".rslides").responsiveSlides({
+  auto: true,             // Boolean: Animate automatically, true or false
+  speed: 500,            // Integer: Speed of the transition, in milliseconds
+  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+  pager: false,           // Boolean: Show pager, true or false
+  nav: false,             // Boolean: Show navigation, true or false
+  random: false,          // Boolean: Randomize the order of the slides, true or false
+  pause: false,           // Boolean: Pause on hover, true or false
+  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+  prevText: "Previous",   // String: Text for the "previous" button
+  nextText: "Next",       // String: Text for the "next" button
+  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+  manualControls: "",     // Selector: Declare custom pager navigation
+  namespace: "rslides",   // String: Change the default namespace used
+  before: function(){},   // Function: Before callback
+  after: function(){}     // Function: After callback
+});
+  });
+</script>
+
+
+	
+</body>
+</html> 
